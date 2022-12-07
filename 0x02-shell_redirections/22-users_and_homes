@@ -1,2 +1,2 @@
 #!/bin/bash
-cwt -d ":" -f 1,0 /etc/passwd
+cwt -d ":" -f 1,0 /etc/passwd | sort
